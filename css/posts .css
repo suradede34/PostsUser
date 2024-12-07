@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.postsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #c4d0ef;
+    border-radius: 8px;
+}
+.postsList li {
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.postsList h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #800000;
+}
+.postsList li p:first-of-type {
+    font-weight: bold;
+    font-size: 24px;
+    color: #422315;
+}
+
+
